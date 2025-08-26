@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Business Card</title>
+    <!-- External CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- ===== Business card wrapper ===== -->
+    <div class="business-card">
+        
+        <!-- Profile picture wrapper -->
+        <div class="profile-wrapper">
+        <a href="images/profile-picture.png" target="_blank">
+           <img src="images/profile-picture.png" 
+             alt="Triple A picture" 
+             class="profile-img"
+             onerror="this.style.display='none'; this.parentElement.querySelector('.profile-fallback').style.display='flex'">
+          <span class="profile-fallback">TA</span>
+        </a>
+        </div>
+
+        <!-- Developer name -->
+        <h1>Triple A</h1>
+
+        <!-- Role / Job title -->
+        <p class="title">Aspiring FullStack Developer</p>
+
+        <!-- Company / Brand -->
+        <p class="company">TripleAStackDev</p>
+
+        <!--Divider line-->
+        <hr>
+
+        <!--bio-->
+        <div>
+           <p class="bio">
+                Aspiring FullStack developer learning and building projects with FreeCodeCamp. 
+                I’m passionate about turning ideas into real web applications, improving my skills daily, 
+                and stacking knowledge quietly until I’m ready to ship.
+           </p>
+        </div>
+
+        <!--Divider line-->
+        <hr>        
+        
+        <!-- Contact information -->
+        <div class="contact-info">
+          <!-- "mailto:" makes email clickable -->
+            <p>Email: <a href="mailto:tripleastack.dev@gmail.com">tripleastack.dev@gmail.com</a></p>
+            <p>Phone: <a href="tel:+2349163075204">+234 916 307 5204</a></p>
+        </div>
+        
+        <!-- Divider line -->
+        <hr>
+
+        <!-- Social media links -->
+        <div class="social-links">
+            <a href="https://x.com/TripleAStackDev" 
+               aria-label="Visit Triple A on X (formerly Twitter)" 
+               target="_blank" rel="noopener">
+               <i class="fab fa-x-twitter"></i> X(Twitter)
+            </a>
+            
+            <a href="https://github.com/TripleAStackDev" 
+               aria-label="Visit Triple A on GitHub" 
+               target="_blank" rel="noopener">
+               <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    </div>
+</body>
+</html>
